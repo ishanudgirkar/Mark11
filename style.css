@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&display=swap');
+
+html, body {
+/*   height: 100%; */
+  width: 100%;
+ 
+}
+
+:root{
+  --primary-green:#2dd4bf;
+  --primart-dark:#0c4a6e;
+  
+}
+body{
+  background-color: var(--primart-dark);
+  color: var(--primary-green);
+  font-family: 'Aboreto', cursive;
+}
+
+h1{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  word-spacing: 0.3rem;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+}
+
+input,label{
+  display: block;
+  text-align: center;
+  margin-bottom:1rem;
+}
+
+input{
+  margin-bottom:0.5rem ;
+  width: 30%;
+  margin: auto;
+  border-radius: 0.5rem;
+  border:3px solid var(--primary-green);
+  font-size:14px;
+  padding:0.6rem;
+}
+
+button{
+  display: block;
+/*   margin-top:2rem; */
+  margin: auto;
+  background: transparent;
+  color: var(--primary-green);
+  border-color: var(--primary-green);
+  border-width: medium;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  
+}
+
+label[for="lucky-number"]{
+  margin-top: 2rem;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links > .link {
+  padding: 0 0.5rem;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  margin: auto;
+}
+
+img {
+  width: 30px;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+
+footer,p {
+  font-size: large;
+  text-align: center;
+  padding-top: 3rem;
+  word-spacing: 0.4rem;
+  margin: auto;
+}
+
+#check-number{
+  margin-top: 2.5rem;
+}
+
+label{
+  margin-bottom: 2rem;
+}
+
+#output-box{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer{
+  margin-top: 2rem;
+/*   position: absolute; */
+  bottom: 0;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
